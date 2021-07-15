@@ -1,0 +1,10 @@
+def instructions():
+    print(f'______________________________________________________________________________________________________________')
+    print('Tic-Tac-Toe instructions: input the value where you would like to place your mark based on the example below')
+    print('\n')
+    display_board(['7','8','9','4','5','6','1','2','3'])
+    print('\n')
+    print(f'{player1["name"]} is Player 1 with {player1["character"]}. {player2["name"]} is Player 2 with {player2["character"]}.') 
+    print('\n')
+    print(f'Good luck!')
+    print(f'______________________________________________________________________________________________________________')
